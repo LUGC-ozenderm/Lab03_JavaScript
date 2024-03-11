@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hamburger Creator</title>
+    <script src="js/bla.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Hamburger Creator</h1>
+    <form id="hamburgerForm">
+        <label for="bun">Bun:</label>
+        <select id="bun" name="bun"></select><br>
+        <label for="garnish">Garnish:</label>
+        <select id="garnish" name="garnish"></select><br>
+        <label for="cheese">Cheese:</label>
+        <select id="cheese" name="cheese"></select><br>
+        <label for="sauce">Sauce:</label>
+        <select id="sauce" name="sauce"></select><br>
+        <label for="meat">Meat:</label>
+        <select id="meat" name="meat"></select><br>
+        <label for="pattyCount">Patty Count:</label>
+        <select id="pattyCount" name="pattyCount"></select><br>
+        <label for="extras">Extras:</label>
+        <select id="extras" name="extras"></select><br>
+        <input type="button" value="Create Hamburger" onclick="createAndDescribeHamburger()">
+    </form>
+    <p id="hamburgerDescription"></p>
+</body>
+</html>
